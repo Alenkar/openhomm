@@ -4,8 +4,12 @@
 import <format>;
 import <iostream>;
 import <SDL2/SDL.h>;
+
+
 import openhomm.math;
+import openhomm.sound;
 import openhomm.application;
+
 
 
 #if defined(WIN32) && defined(_MSC_VER)
@@ -42,6 +46,10 @@ int main(int argc, char** argv) {
     if (window == nullptr) {
         return 1;
     }
+
+    Sound sound(1);
+    sound.loadMedia();
+
 
     bool done = false;
     while (!done) {

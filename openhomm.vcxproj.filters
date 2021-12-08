@@ -19,6 +19,9 @@
     <Filter Include="Source Files\io">
       <UniqueIdentifier>{3a2c5269-0403-4bd3-bd29-45f34672daf4}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Source Files\sound">
+      <UniqueIdentifier>{c01c613a-1eaa-49de-80a0-13f324083f8d}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="src\application.cppm">
@@ -50,6 +53,9 @@
     </ClCompile>
     <ClCompile Include="src\io\stream-gz.cppm">
       <Filter>Source Files\io</Filter>
+    </ClCompile>
+    <ClCompile Include="src\sound\sound.cppm">
+      <Filter>Source Files\sound</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
