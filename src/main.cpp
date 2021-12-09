@@ -48,7 +48,12 @@ int main(int argc, char** argv) {
     }
 
     Sound sound(1);
-    sound.loadMedia();
+
+    const char* mp3filename = "C:\\Users\\Alexe\\source\\2.mp3";
+    sound.loadMedia(mp3filename);
+    sound.playMedia(0);
+    sound.playMedia(0);
+    sound.closeMedia(0);
 
 
     bool done = false;
